@@ -21,6 +21,7 @@ body {
   top: 20px;
   left: 20px;
   font-size: 20px;
+  z-index: 2;
 }
 
 .placeholder img {
@@ -42,7 +43,7 @@ body {
 .small-text {
   font-size: 14px;
   margin-top: 10px;
-  font-family: helvetica;
+  font-family: "helvetica neue", "helevtica", sans-serif;
   font-weight: 200;
 }
 
