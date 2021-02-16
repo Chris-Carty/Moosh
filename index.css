@@ -51,4 +51,5 @@ body {
 a {
   font-weight: 700;
   color: black;
+  pointer-events: auto;
 }
