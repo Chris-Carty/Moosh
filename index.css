@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "PragmaticaExtendedBook";
+  src: local("PragmaticaExtendedBook"), local("PragmaticaExtendedExtraLight"),
+    url("./Fonts/PragmaticaExtendedBook.ttf") format("truetype"),
+    url("./Fonts/PragmaticaExtendedBook.woff") format("woff");
+  font-weight: 700;
+  font-style: light;
+}
+
+body {
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: PragmaticaExtendedBook;
+  background: rgba(84, 209, 255, 255);
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.placeholder img {
+  width: 500px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: helvetica;
+  font-weight: 200;
+}
+
+a {
+  font-weight: 700;
+  color: black;
+}

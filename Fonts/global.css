@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'PragmaticaExtendedBook';
+  src: local('PragmaticaExtendedBook'), local('PragmaticaExtendedExtraLight'),
+  url('./Fonts/PragmaticaExtendedBook.ttf') format('truetype'),
+  url('./Fonts/PragmaticaExtendedBook.woff') format('woff');
+  font-weight: 700;
+  font-style: light;
+}
+
+
+body {
+   font-size: 5rem;
+   color: rgb(0,0,0);
+   margin: 0;
+   padding: 0;
+   font-family: PragmaticaExtendedBook;
+}
+
+.menu-button {
+	position: fixed;
+	top: 5px;
+  right: 10px;
+  transition: width 2s, height 2s, transform 0.7s;
+  cursor: pointer;
+  z-index: 3;
+    
+}
+
+.menu-button:hover {
+    transform: rotate(180deg);
+}
+
+.menu {
+    background-color:rgb(130,71,255);
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all 1.25s;
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    color: rgb(0,0,0); 
+  }
+
+  .menu.open {
+    transform: translateY(0%); 
+  }
+
+  .menu-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .menu-text:hover {
+    color: rgb(255,255,0);
+}
+
